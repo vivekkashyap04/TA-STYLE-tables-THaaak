@@ -1,0 +1,384 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom css */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  color: white;
+  font-size: 16px;
+}
+.container {
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background-color: #ed563a;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.color,
+nav a.active {
+  color: #ed563a;
+}
+.btn-sign {
+  padding: 5px 0 5px 15px;
+}
+nav button.btn-sign:hover {
+  color: white;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header {
+  background-color: rgba(17, 46, 94, 0.3);
+  padding: 10px 0;
+}
+.nav a {
+  text-decoration: none;
+  padding-right: 32px;
+  text-transform: uppercase;
+  color: white;
+}
+.nav a:hover {
+  color: #ed563a;
+}
+.top-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+.myvideo {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.relative {
+  position: relative;
+}
+.sub-header {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.col-1 {
+  flex: 0 1 50%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+/* section1 */
+.section1 {
+  padding: 60px 0;
+}
+.center-text {
+  text-align: center;
+}
+.text {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: #232d38;
+}
+.para-text {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 0 40px 0;
+  color: #a6a6a6;
+  font-size: 14px;
+}
+.padding {
+  padding: 3px 0 5px 0;
+}
+.aside {
+  padding: 0 20px;
+}
+.more-link {
+  font-size: 12px;
+  color: #ed563a;
+}
+.more-link:hover {
+  text-decoration: underline;
+}
+.bottom {
+  margin-bottom: 20px;
+}
+.program-text {
+  font-weight: 600;
+  font-size: 20px;
+}
+/* section 2*/
+.section2 {
+  background-image: url("../cta-bg.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 70px 0;
+}
+.section2-header {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.para-text1 {
+  padding-bottom: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+.btn-3 {
+  padding: 15px 20px;
+}
+/* section 3 */
+.col-2 {
+  flex: 0 1 40%;
+  padding-right: 40px;
+}
+.col-3 {
+  flex: 0 1 60%;
+}
+.image {
+  width: 100%;
+}
+.card {
+  width: 90%;
+  padding: 20px;
+  box-shadow: 0 6px 6px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: white;
+  color: #4a525b;
+  margin-bottom: 14px;
+}
+.btn-width {
+  width: 90%;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.flex-card {
+  display: flex;
+}
+.training-text {
+  padding-left: 20px;
+  font-weight: 600;
+}
+.training-text:hover {
+  color: tomato;
+}
+.text2 {
+  padding: 10px 0 20px 0;
+  color: #a6a6a6;
+  font-size: 14px;
+}
+.text-first {
+  color: #232d38;
+  font-weight: 600;
+  font-size: 25px;
+}
+/*section 4 */
+.section4 {
+  background-image: url("../schedule-bg.jpg");
+  background-size: cover;
+}
+table {
+  border: 1px solid white;
+  width: 100%;
+}
+caption {
+  color: white;
+  padding: 0 0px 20px 0px;
+  font-size: 18px;
+}
+td {
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  padding: 35px 0;
+  font-size: 14px;
+}
+.white {
+  color: white;
+}
+/* section 5*/
+.col-5 {
+  flex: 0 1 33%;
+}
+.text i {
+  font-size: 14px;
+  padding-right: 12px;
+}
+/*map */
+.bg {
+  background-image: url("../contact-bg.jpg");
+  background-size: cover;
+}
+.card-contact {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  margin: 0;
+}
+.form-control {
+  width: 45%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.text-control {
+  width: 91%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  padding: 30px 0;
+  font-size: 14px;
+  color: #232d38;
+}
